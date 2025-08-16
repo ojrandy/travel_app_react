@@ -1,50 +1,100 @@
-# Welcome to your Expo app 👋
+🎬 Movie App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+A modern React/React Native Movie App built with a clean architecture, seamless UI, and a focus on performance.
+This project fetches real-time movie data, lets users explore trending titles, and delivers a Netflix-style experience on web and mobile.
 
-1. Install dependencies
+✨ Features
 
-   ```bash
-   npm install
-   ```
+🔍 Search & Discover – Find movies, TV shows, and trending content in real time.
 
-2. Start the app
+🎞 Detailed Pages – View ratings, overviews, genres, release dates, and cast info.
 
-   ```bash
-   npx expo start
-   ```
+📱 Responsive Design – Works beautifully across devices (web & mobile).
 
-In the output, you'll find options to open the app in a
+⚡ Optimized Performance – Smooth transitions, lazy loading, and API caching.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🎨 Modern UI – Built with a clean, professional, and user-friendly design.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+🗄 Scalable Architecture – Code structured for maintainability and growth.
 
-## Get a fresh project
+🛠 Tech Stack
 
-When you're ready, run:
+Frontend: React / React Native (Expo)
 
-```bash
-npm run reset-project
-```
+Styling: Tailwind CSS / Styled Components
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Navigation: React Navigation
 
-## Learn more
+API: TMDB (The Movie Database) API
 
-To learn more about developing your project with Expo, look at the following resources:
+State Management: React Context / Redux Toolkit
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Deployment: Expo Go / Web support
 
-## Join the community
+🚀 Getting Started
 
-Join our community of developers creating universal apps.
+Follow these steps to run the app locally:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1️⃣ Clone the repository
+git clone https://github.com/ojrandy/movie_app.git
+cd movie_app
+
+2️⃣ Install dependencies
+npm install
+# or
+yarn install
+
+3️⃣ Start the development server
+npx expo start
+
+4️⃣ Run the app
+
+📱 On device: Scan the QR code with Expo Go (iOS/Android)
+
+💻 On web: Press w in the terminal
+
+📸 Screenshots
+Home Screen	Movie Details	Search
+
+
+
+
+(Add your real screenshots to the assets/screenshots/ folder for a polished look)
+
+📂 Project Structure
+movie_app/
+├── assets/           # Images, fonts, icons
+├── components/       # Reusable UI components
+├── screens/          # App screens (Home, Details, Search, etc.)
+├── navigation/       # App navigation setup
+├── services/         # API calls & data handling
+├── App.js            # Root entry file
+└── package.json
+
+🔑 Environment Variables
+
+Create a .env file in the project root and add your TMDB API key:
+
+EXPO_PUBLIC_TMDB_API_KEY=your_api_key_here
+
+🧑‍💻 Author
+
+👤 Ojong Randy
+
+GitHub: @ojrandy
+
+LinkedIn: 
+
+
+
+⭐ Show Your Support
+
+If you like this project, consider giving it a ⭐ star on GitHub!
+It really helps others discover the project and supports my work.
+
+📜 License
+
+This project is licensed under the MIT License – feel free to use, modify, and share.
+
+🔥 Built with passion for code, movies, and clean design.
