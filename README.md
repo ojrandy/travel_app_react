@@ -1,8 +1,6 @@
 🎬 Movie App
 
-
-A modern React/React Native Movie App built with a clean architecture, seamless UI, and a focus on performance.
-This project fetches real-time movie data, lets users explore trending titles, and delivers a Netflix-style experience on web and mobile.
+A modern React/React Native Movie App built with a clean architecture, seamless UI, and a focus on performance. This project fetches real-time movie data, lets users explore trending titles, and delivers a Netflix-style experience on web and mobile.
 
 ✨ Features
 
@@ -36,17 +34,16 @@ Deployment: Expo Go / Web support
 
 Follow these steps to run the app locally:
 
-1️⃣ Clone the repository
-git clone https://github.com/ojrandy/movie_app.git
+1️⃣ Clone the repository git clone github.com/ojrandy/travel_app_reac
+
 cd movie_app
 
-2️⃣ Install dependencies
-npm install
-# or
+2️⃣ Install dependencies npm install
+
+or
 yarn install
 
-3️⃣ Start the development server
-npx expo start
+3️⃣ Start the development server npx expo start
 
 4️⃣ Run the app
 
@@ -54,23 +51,13 @@ npx expo start
 
 💻 On web: Press w in the terminal
 
-📸 Screenshots
-Home Screen	Movie Details	Search
+you can also use IOS simulator via Xcode or Android emmlator on Android Studio
 
-
-
+📸 Screenshots Home Screen Movie Details Search
 
 (Add your real screenshots to the assets/screenshots/ folder for a polished look)
 
-📂 Project Structure
-movie_app/
-├── assets/           # Images, fonts, icons
-├── components/       # Reusable UI components
-├── screens/          # App screens (Home, Details, Search, etc.)
-├── navigation/       # App navigation setup
-├── services/         # API calls & data handling
-├── App.js            # Root entry file
-└── package.json
+📂 Project Structure movie_app/ ├── assets/ # Images, fonts, icons ├── components/ # Reusable UI components ├── screens/ # App screens (Home, Details, Search, etc.) ├── navigation/ # App navigation setup ├── services/ # API calls & data handling ├── App.js # Root entry file └── package.json
 
 🔑 Environment Variables
 
@@ -80,18 +67,15 @@ EXPO_PUBLIC_TMDB_API_KEY=your_api_key_here
 
 🧑‍💻 Author
 
-👤 Ojong Randy
+👤 Ojong Randy Ikoke
 
 GitHub: @ojrandy
 
-LinkedIn: 
-
-
+LinkedIn:
 
 ⭐ Show Your Support
 
-If you like this project, consider giving it a ⭐ star on GitHub!
-It really helps others discover the project and supports my work.
+If you like this project, consider giving it a ⭐ star on GitHub! It really helps others discover the project and supports my work.
 
 📜 License
 

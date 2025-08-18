@@ -1,13 +1,13 @@
 import React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
 
-const MoveiDetails = () => {
+const search = () => {
     return (
         <View>
-            <Text>MoveiDetails</Text>
+            <Text>search</Text>
         </View>
     );
 };
 
-export default MoveiDetails;
+export default search;
 const style = StyleSheet.create({});

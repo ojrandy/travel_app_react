@@ -1,13 +1,13 @@
 import React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
 
-const MoveiDetails = () => {
+const profile = () => {
     return (
         <View>
-            <Text>MoveiDetails</Text>
+            <Text>profile</Text>
         </View>
     );
 };
 
-export default MoveiDetails;
+export default profile;
 const style = StyleSheet.create({});
